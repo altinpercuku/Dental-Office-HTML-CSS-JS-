@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nunito+Sans:opsz,wght@6..12,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.az-topbar{
+    display: initial;
+    height: 40px;
+}
+.az-info a{
+    color: white;
+}
+.az-icons i{
+    font-size: 20px;
+    margin: 0 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+.az-icons i:hover{
+    transform: scale(1.2);
+}
+.az-topbar .item{
+    margin: 0 10px;
+}
+.az-info i{
+    margin:0 10px;
+}
+.az-logo{
+    font-family: 'Josefin Sans', sans-serif;
+}
+a.navbar-brand.az-logo {
+    font-size: 30px;
+}
+.nav-item{
+    cursor: pointer;   
+}
+.card{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .az-topbar{
+        visibility: hidden;
+        height: 0;
+    }
+    .az-title, .az-subtitle, .az-paragraph{
+        text-align: center;
+    }
+}
